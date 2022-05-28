@@ -29,7 +29,7 @@ export class NegociacoesView {
                         return `
                             <tr>
                                 <td>
-                                    ?
+                                    ${new Intl.DateTimeFormat().format(negociacao.data)}
                                 </td>
                                 <td>
                                     ${negociacao.quantidade}
